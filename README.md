@@ -2,7 +2,7 @@
 These were implemented during the Operating Systems class. All implementations are working.
 Each assignment is denoted as `a<number>`. They were tested with a Python3 script given to us.  
 
-We had to strictly use only linux syscalls (eg. using `open()` instead of `fopen()`).
+Used only system calls (`open`, `read`, etc.), no standard I/O functions.
 ### Assignment 1 (a1) – File System Module
 Implemented a C program that works with custom binary “section files” (SF format).  
 Features:
@@ -10,8 +10,6 @@ Features:
 - Lists directories with filters (e.g. by size or name)  
 - Parses and extracts lines from SF sections (in reverse)  
 - Recursively finds SF files with sections over 13 lines  
-
-Used only system calls (`open`, `read`, etc.), no standard I/O functions.
 
 ---
 
